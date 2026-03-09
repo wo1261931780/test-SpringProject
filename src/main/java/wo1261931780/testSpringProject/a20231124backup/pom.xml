@@ -192,7 +192,7 @@
 		<dependency>
 			<groupId>org.apache.kafka</groupId>
 			<artifactId>kafka-clients</artifactId>
-			<version>3.8.0</version>
+			<version>3.9.1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.scala-lang</groupId>
@@ -433,7 +433,7 @@
 			<!--但是比Commons-io范围大-->
 			<groupId>commons-fileupload</groupId>
 			<artifactId>commons-fileupload</artifactId>
-			<version>1.5</version>
+			<version>1.6.0</version>
 		</dependency>
 		<!--Quartz是一个工作调度库，可以嵌入到java应用程序中，支持事务、持久性、集群和插件。-->
 		<dependency>
