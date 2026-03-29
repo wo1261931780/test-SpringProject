@@ -154,7 +154,7 @@
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
-			<version>3.17.0</version>
+			<version>3.18.0</version>
 		</dependency>
 		<!--Guava是一种基于开源的Java库，Google
 		Guava源于2007年的"Google Collections Library"。-->
@@ -280,7 +280,7 @@
 			<groupId>org.apache.kafka</groupId>
 			<artifactId>kafka-clients</artifactId>
 			<!-- 3.7和spring不兼容 -->
-			<version>4.0.0</version>
+			<version>4.2.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.kafka</groupId>
@@ -572,7 +572,7 @@
 		<dependency>
 			<groupId>org.apache.zookeeper</groupId>
 			<artifactId>zookeeper</artifactId>
-			<version>3.9.3</version>
+			<version>3.9.5</version>
 		</dependency>
 
 		<!--=============================================================================================-->
@@ -584,7 +584,7 @@
 			<!--但是比Commons-io范围大-->
 			<groupId>commons-fileupload</groupId>
 			<artifactId>commons-fileupload</artifactId>
-			<version>1.5</version>
+			<version>1.6.0</version>
 		</dependency>
 		<!--Quartz是一个工作调度库，可以嵌入到java应用程序中，支持事务、持久性、集群和插件。-->
 		<dependency>
