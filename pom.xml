@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.4.5</version>
+		<version>3.4.4</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>wo1261931780</groupId>
@@ -15,14 +15,15 @@
 	<name>testSpringProject</name>
 	<description>junw project</description>
 	<properties>
-		<java.version>17</java.version>
+		<java.version>25</java.version>
 		<!--<spring-native.version>0.12.1</spring-native.version>-->
 		<!--maven的打包配置-->
-		<maven.compiler.source>17</maven.compiler.source>
-		<maven.compiler.target>17</maven.compiler.target>
+		<maven.compiler.source>25</maven.compiler.source>
+		<maven.compiler.target>25</maven.compiler.target>
 		<!--编码格式-->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<lombok.version>1.18.40</lombok.version>
 	</properties>
 	<dependencies>
 		<!--=============================================================================================-->
@@ -31,7 +32,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
-			<version>3.4.5</version>
+			<version>3.4.4</version>
 		</dependency>
 		<!--spring网络WEB-->
 		<!--使用SpringMVC构建Web，包括RESTful，应用程序。使用ApacheTomcat作为默认的嵌入式容器。-->
@@ -39,7 +40,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-			<version>3.4.5</version>
+			<version>3.4.4</version>
 			<!--<scope>test</scope>-->
 			<!--上面的scope表示作用范围-->
 			<!--在没有说明的情况下，scope默认就是compile-->
@@ -53,7 +54,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
-			<version>3.4.5</version>
+			<version>3.4.4</version>
 		</dependency>
 		<!--SpringAspects将Spring与AspectJ整合在一起。-->
 		<!--AOP切面编程的依赖-->
@@ -68,7 +69,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-cache</artifactId>
-			<version>3.4.5</version>
+			<version>3.4.4</version>
 		</dependency>
 		<!--SpringBoot
 		DevTools 开发人员工具-->
@@ -76,7 +77,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
-			<version>3.4.5</version>
+			<version>3.4.4</version>
 			<scope>runtime</scope>
 			<optional>true</optional>
 		</dependency>
@@ -85,7 +86,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-configuration-processor</artifactId>
-			<version>3.4.5</version>
+			<version>3.4.4</version>
 			<optional>true</optional>
 			<!--添加以后，可以避免自动装配报错-->
 		</dependency>
@@ -95,7 +96,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
-			<version>3.4.5</version>
+			<version>3.4.4</version>
 		</dependency>
 
 		<!--=============================================================================================-->
@@ -106,7 +107,7 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<version>1.18.38</version>
+			<version>1.18.40</version>
 			<optional>true</optional>
 			<scope>provided</scope>
 			<!--因为只是源代码中提供了对应的功能-->
@@ -123,7 +124,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-autoconfigure</artifactId>
-			<version>3.4.5</version>
+			<version>3.4.4</version>
 		</dependency>
 		<!-- hutool -->
 		<!--字符串不为空的判断工具-->
@@ -173,7 +174,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web-services</artifactId>
-			<version>3.4.5</version>
+			<version>3.4.4</version>
 		</dependency>
 		<!--相比来说，jetty更加轻量，而且拓展性更强-->
 		<!--tomcat是apache的，而jetty是eclipse的-->
@@ -197,7 +198,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webflux</artifactId>
-			<version>3.4.5</version>
+			<version>3.4.4</version>
 		</dependency>
 		<!--SpringSessionWEB-->
 		<!--为管理用户会话信息提供API和实现。-->
@@ -230,7 +231,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-amqp</artifactId>
-			<version>3.4.5</version>
+			<version>3.4.4</version>
 		</dependency>
 		<!--Spring
 		for RabbitMQ 消息-->
@@ -311,7 +312,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<!--spring操作数据库的包-->
 			<artifactId>spring-boot-starter-data-jdbc</artifactId>
-			<version>3.4.5</version>
+			<version>3.4.4</version>
 		</dependency>
 
 		<!--SpringData
@@ -321,7 +322,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-jdbc</artifactId>
-			<version>3.4.5</version>
+			<version>3.4.4</version>
 		</dependency>
 		<!--MySQL
 		JDBC driver.驱动-->
@@ -363,17 +364,7 @@
 		<dependency>
 			<groupId>com.baomidou</groupId>
 			<artifactId>mybatis-plus-spring-boot3-starter</artifactId>
-			<version>3.5.12</version>
-		</dependency>
-		<!--使用mybatis-plus以后，这些东西就不需要了-->
-		<!--没有配置，项目报错，启动失败-->
-		<dependency>
-			<groupId>com.baomidou</groupId>
-			<artifactId>mybatis-plus-boot3-starter</artifactId>
-			<version>3.5.12</version>
-			<!-- 依赖中一共两个jar包 -->
-			<!--一个是mybatis和spring整合包-->
-			<!--一个是mybatis包-->
+			<version>3.5.7</version>
 		</dependency>
 		<!-- mybatis-plus 多数据源 -->
 		<!--目前，多数项目会有多数据源的要求，或者是主从部署的要求，所以我们还需要引入mybatis-plus
@@ -387,7 +378,7 @@
 		<dependency>
 			<groupId>com.baomidou</groupId>
 			<artifactId>mybatis-plus-generator</artifactId>
-			<version>3.5.12</version>
+			<version>3.5.7</version>
 		</dependency>
 
 		<!--生成器对应的模板技术-->
@@ -477,7 +468,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-redis</artifactId>
-			<version>3.4.5</version>
+			<version>3.4.4</version>
 		</dependency>
 		<!--用来连接，操作redis-->
 		<!--ApacheCommons对象池库。-->
@@ -504,7 +495,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
-			<version>3.4.5</version>
+			<version>3.4.4</version>
 			<scope>test</scope>
 		</dependency>
 
@@ -524,7 +515,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
-			<version>3.4.5</version>
+			<version>3.4.4</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.security</groupId>
@@ -975,6 +966,7 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</repository>
+		<!-- spring-releases repository disabled due to 401 auth issues
 		<repository>
 			<id>spring-releases</id>
 			<name>Spring Releases</name>
@@ -983,8 +975,9 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</repository>
+		-->
 		<!-- 注意：由于 spring-ai 相关依赖包还没有发布到中央仓库，如出现 spring-ai-core 等相关依赖解析问题，请在您项目的 pom.xml
-		依赖中加入如下仓库配置。 -->
+		依赖中加入如下仓库配置。 
 		<repository>
 			<id>spring-milestones</id>
 			<name>Spring Milestones</name>
@@ -1001,6 +994,7 @@
 				<enabled>false</enabled>
 			</releases>
 		</repository>
+		-->
 	</repositories>
 	<pluginRepositories>
 		<pluginRepository>
