@@ -77,7 +77,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
-			<version>3.5.3</version>
+			<version>3.5.14</version>
 			<scope>runtime</scope>
 			<optional>true</optional>
 		</dependency>
@@ -257,7 +257,7 @@
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
-			<version>2.19.0</version>
+			<version>2.22.0</version>
 		</dependency>
 
 		<!--JMS支持包，包括用于发送/接收JMS消息的辅助类-->
@@ -286,7 +286,7 @@
 		<dependency>
 			<groupId>org.springframework.kafka</groupId>
 			<artifactId>spring-kafka</artifactId>
-			<version>3.2.3</version>
+			<version>3.3.16</version>
 		</dependency>
 		<!--Scala是一种运行在JVM上的一种编程语言(运行在JVM上的编程语言还有Groovy和Kotlin)，即最终都会编译成.class文件。-->
 		<!--Scala编程语言的特点：-->
