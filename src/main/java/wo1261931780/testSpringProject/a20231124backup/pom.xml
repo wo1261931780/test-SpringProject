@@ -525,7 +525,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-autoconfigure</artifactId>
-			<version>3.3.4</version>
+			<version>3.5.15</version>
 		</dependency>
 	</dependencies>
 

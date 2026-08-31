@@ -124,7 +124,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-autoconfigure</artifactId>
-			<version>3.5.3</version>
+			<version>3.5.15</version>
 		</dependency>
 		<!-- hutool -->
 		<!--字符串不为空的判断工具-->
