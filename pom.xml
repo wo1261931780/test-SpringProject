@@ -257,7 +257,7 @@
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
-			<version>2.21.5</version>
+			<version>2.22.3</version>
 		</dependency>
 
 		<!--JMS支持包，包括用于发送/接收JMS消息的辅助类-->
