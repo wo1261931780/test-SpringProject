@@ -203,7 +203,7 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-jms</artifactId>
-			<version>6.1.12</version>
+			<version>6.2.19</version>
 		</dependency>
 
 
